@@ -25,20 +25,21 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 1. Palindrome
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: I feel there's something missing in the code. probably an unassigned value
+because it prints out as undefined.
 
 ### 2. Add grid items
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: I'm slightly confused.
 
 ### 3. Create file name string in CamelCase
 
-- Grade:
-- Explanation:
+- Grade: 1
+- Explanation: I am having difficulty breaking down the question to help write the code.
 
 ### 4. Create pattern
 
-- Grade:
-- Explanation:
+- Grade: 1
+- Explanation: I cant tell why the code isnt running.

@@ -16,9 +16,21 @@ console.log(isPalindrome(1)); // true
 console.log(isPalindrome(84146)); // false
 console.log(isPalindrome(12)); // false
 ------------------*/
+/*
+function isPalindrome(x) {
+    //let num = x;
+    for (let x = 0; x <= num.length; x++) {
+        if (x === num.reverse() ? true : false);
+    return function palindrome() {
+    } 
+    }
+}
 
-function isPalindrome(num) {}
-
+console.log(isPalindrome(12321)); // true
+console.log(isPalindrome(-12321)); // false
+console.log(isPalindrome(1)); // true
+console.log(isPalindrome(84146)); // false
+console.log(isPalindrome(12)); // false
 /*------------------
 2)
 Create a function that takes a grid
@@ -31,9 +43,16 @@ console.log(addGridItems(y)); // 3
 
 const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
 console.log(addGridItems(x)); // 50
-------------------*/
+//------------------*/
+/*
+let x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
 
-function addGridItems(grid) {}
+function addGridItems(x) {
+    let grid = x++
+    return grid;
+}
+console.log(addGridItems(x)); // 50
+
 
 /*------------------
 3)
@@ -55,8 +74,20 @@ console.log(createFileName("Sofia Engineering Resume", "PDF")); // "sofia_engine
 console.log(createFileName("Sofia Profile Photo", "image")); // "sofia_profile_photo.png"
 console.log(createFileName("Data from Pokemon API", "JSON")); // "data_from_pokemon_api.json"
 ------------------*/
+/*
+function createFileName(arr, cb) {
+    let doc = [];
+   for (let x = 0; x < array1.length; x++) {
+      
+    }
+    return doc.join(' ');
+  }
 
-function createFileName() {}
+console.log(createFileName("Sofia Engineering Resume", "PDF")); // "sofia_engineering_resume.pdf"
+console.log(createFileName("Sofia Profile Photo", "image")); // "sofia_profile_photo.png"
+console.log(createFileName("Data from Pokemon API", "JSON")); // "data_from_pokemon_api.json"
+
+
 
 /*------------------
 4) Print the following pattern
@@ -69,3 +100,13 @@ function createFileName() {}
 Hints:
 - Use a loop within a loop.
 ------------------*/
+
+function pattern(num){
+    let num = [99, 96, 93, 90, 88];
+
+    for( let i = 0; i <= num.length; i--) {
+        num -= 3;
+        return num;
+    }
+}
+console.log(pattern);
